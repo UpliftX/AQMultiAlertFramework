@@ -15,5 +15,6 @@ FOUNDATION_EXPORT double AQMultiAlertFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char AQMultiAlertFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AQMultiAlertFramework/PublicHeader.h>
-
+#import <AQMultiAlertFramework/AQAlertAction.h>
+#import <AQMultiAlertFramework/AQAlertQueue.h>
 

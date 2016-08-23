@@ -6,7 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		3A16C7EE1D24D604007F17CA /* UniversalBuilder */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A16C7EF1D24D604007F17CA /* Build configuration list for PBXAggregateTarget "UniversalBuilder" */;
+			buildPhases = (
+				3A16C7F21D24D677007F17CA /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalBuilder;
+			productName = UniversalBuilder;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		3A16C7EA1D24D431007F17CA /* AQAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A16C7E61D24D431007F17CA /* AQAlertAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A16C7EB1D24D431007F17CA /* AQAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A16C7E71D24D431007F17CA /* AQAlertAction.m */; };
+		3A16C7EC1D24D431007F17CA /* AQAlertQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A16C7E81D24D431007F17CA /* AQAlertQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A16C7ED1D24D431007F17CA /* AQAlertQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A16C7E91D24D431007F17CA /* AQAlertQueue.m */; };
 		3AD1B4671D12ACB000A740D9 /* AQMultiAlertFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD1B4661D12ACB000A740D9 /* AQMultiAlertFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AD1B46E1D12ACB000A740D9 /* AQMultiAlertFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD1B4631D12ACB000A740D9 /* AQMultiAlertFramework.framework */; };
 		3AD1B4731D12ACB000A740D9 /* AQMultiAlertFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1B4721D12ACB000A740D9 /* AQMultiAlertFrameworkTests.m */; };
@@ -23,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A16C7E61D24D431007F17CA /* AQAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQAlertAction.h; path = AQMultiAlertFramework/AQAlertAction.h; sourceTree = "<group>"; };
+		3A16C7E71D24D431007F17CA /* AQAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AQAlertAction.m; path = AQMultiAlertFramework/AQAlertAction.m; sourceTree = "<group>"; };
+		3A16C7E81D24D431007F17CA /* AQAlertQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQAlertQueue.h; path = AQMultiAlertFramework/AQAlertQueue.h; sourceTree = "<group>"; };
+		3A16C7E91D24D431007F17CA /* AQAlertQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AQAlertQueue.m; path = AQMultiAlertFramework/AQAlertQueue.m; sourceTree = "<group>"; };
 		3AD1B4631D12ACB000A740D9 /* AQMultiAlertFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AQMultiAlertFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD1B4661D12ACB000A740D9 /* AQMultiAlertFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQMultiAlertFramework.h; sourceTree = "<group>"; };
 		3AD1B4681D12ACB000A740D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +75,10 @@
 		3AD1B4591D12ACB000A740D9 = {
 			isa = PBXGroup;
 			children = (
+				3A16C7E61D24D431007F17CA /* AQAlertAction.h */,
+				3A16C7E71D24D431007F17CA /* AQAlertAction.m */,
+				3A16C7E81D24D431007F17CA /* AQAlertQueue.h */,
+				3A16C7E91D24D431007F17CA /* AQAlertQueue.m */,
 				3AD1B4651D12ACB000A740D9 /* AQMultiAlertFramework */,
 				3AD1B4711D12ACB000A740D9 /* AQMultiAlertFrameworkTests */,
 				3AD1B4641D12ACB000A740D9 /* Products */,
@@ -94,6 +120,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AD1B4671D12ACB000A740D9 /* AQMultiAlertFramework.h in Headers */,
+				3A16C7EA1D24D431007F17CA /* AQAlertAction.h in Headers */,
+				3A16C7EC1D24D431007F17CA /* AQAlertQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +173,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Gupta, Mrigank";
 				TargetAttributes = {
+					3A16C7EE1D24D604007F17CA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					3AD1B4621D12ACB000A740D9 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -167,6 +198,7 @@
 			targets = (
 				3AD1B4621D12ACB000A740D9 /* AQMultiAlertFramework */,
 				3AD1B46C1D12ACB000A740D9 /* AQMultiAlertFrameworkTests */,
+				3A16C7EE1D24D604007F17CA /* UniversalBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -188,11 +220,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A16C7F21D24D677007F17CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Merge Script\n\n# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"AQMultiAlertFramework\"\n\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\"\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\"\n\n# 5\n# Remove .framework file if exists on Desktop from previous run.\nif [ -d \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\nfi\n\n# 6\n# Copy the device version of framework to Desktop.\ncp -r \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\n\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\n# 8\n# Copy the Swift module mappings for the simulator into the\n# framework.  The device mappings already exist from step 6.\n# cp -r \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n\n# 9\n# Delete the most recent build.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AD1B45E1D12ACB000A740D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A16C7ED1D24D431007F17CA /* AQAlertQueue.m in Sources */,
+				3A16C7EB1D24D431007F17CA /* AQAlertAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +265,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3A16C7F01D24D604007F17CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A16C7F11D24D604007F17CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		3AD1B4751D12ACB000A740D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -255,7 +319,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -315,6 +379,7 @@
 				INFOPLIST_FILE = AQMultiAlertFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cogicx.AQMultiAlertFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -360,6 +425,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3A16C7EF1D24D604007F17CA /* Build configuration list for PBXAggregateTarget "UniversalBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A16C7F01D24D604007F17CA /* Debug */,
+				3A16C7F11D24D604007F17CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3AD1B45D1D12ACB000A740D9 /* Build configuration list for PBXProject "AQMultiAlertFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -376,6 +450,7 @@
 				3AD1B4791D12ACB000A740D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AD1B47A1D12ACB000A740D9 /* Build configuration list for PBXNativeTarget "AQMultiAlertFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +459,7 @@
 				3AD1B47C1D12ACB000A740D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
